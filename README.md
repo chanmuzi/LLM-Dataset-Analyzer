@@ -47,3 +47,4 @@ bash analyze.sh hails/mmlu_no_train
 
 - 이 도구는 Hugging Face의 datasets 라이브러리를 통해 다운로드 가능한 데이터셋 형식만 지원합니다.
 - 분석에는 OpenAI API를 사용하므로, 사용량에 따라 비용이 발생할 수 있습니다.
+- 데이터셋 전체를 다운로드 받지 않습니다. 대신 로딩하는데 시간이 조금 걸리는 편입니다. (hails/mmlu_no_train 기준 5분 내외)
